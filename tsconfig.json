@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // Set the module system to ESM (ECMAScript Modules)
+    "target": "ESNext", // Set the output language target to ESNext (latest ECMAScript version)
+    "moduleResolution": "node", // Use Node.js module resolution strategy (for resolving imports)
+    "esModuleInterop": true, // Allow importing CommonJS modules in ESM format (enables `import` for CommonJS modules)
+    "allowJs": true, // Allow JavaScript files to be included in the TypeScript compilation
+    "skipLibCheck": true, // Skip type checking of declaration files (improves compilation speed)
+    "resolveJsonModule": true // Allow importing JSON files as modules
+  },
+  "include": ["src/**/*.ts", "config.ts"] // Include all .ts files in the "src" folder and the "config.ts" file in the compilation
+}

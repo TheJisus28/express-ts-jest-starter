@@ -1,0 +1,36 @@
+{
+  "name": "express-ts-jest-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader ts-node/esm --experimental-specifier-resolution=node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "typescript",
+    "express",
+    "supertest",
+    "node"
+  ],
+  "author": "Jesus Daniel Carrascal Hoyos",
+  "license": "ISC",
+  "description": "A project setup for using Jest with TypeScript, Express.js, and Supertest for API testing.",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.9.3",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
